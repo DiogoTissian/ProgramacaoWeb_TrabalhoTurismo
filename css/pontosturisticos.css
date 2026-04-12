@@ -1,0 +1,19 @@
+header{
+    background-color: cadetblue;
+}
+
+body{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+}
+
+article{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+footer{
+    background-color: cadetblue;
+    margin-top: 10px;
+}
