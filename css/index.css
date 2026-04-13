@@ -1,13 +1,3 @@
-header{
-    background-color: cadetblue;
-}
-
-body{
-    font-family: sans-serif;
-    color: black;
-    margin-left: 20px;
-}
-
 .fonte_cursiva{
     font-family: 'Brush Script MT', cursive;
 }
@@ -64,9 +54,4 @@ body{
 
 .card_atracao span p{
     margin-left: 5px;
-}
-
-footer{
-    background-color: cadetblue;
-    margin-top: 10px;
 }

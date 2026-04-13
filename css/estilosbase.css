@@ -1,0 +1,14 @@
+header{
+    background-color: cadetblue;
+}
+
+body{
+    font-family: sans-serif;
+    color: black;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: cadetblue;
+    margin-top: 10px;
+}
