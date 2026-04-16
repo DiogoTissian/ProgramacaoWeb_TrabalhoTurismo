@@ -12,3 +12,7 @@ footer{
     background-color: cadetblue;
     margin-top: 10px;
 }
+
+.fonte_cursiva{
+    font-family: 'Brush Script MT', cursive;
+}

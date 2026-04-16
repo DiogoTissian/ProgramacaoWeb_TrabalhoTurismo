@@ -11,6 +11,7 @@
 .box_card{
     border: 2px solid black;
     border-radius: 2px;
+    display: flex;
 }
 
 .box_card:hover{
@@ -19,4 +20,14 @@
 
 .card_description{
     margin-left: 5px;
+}
+
+.image_box_card{
+    width: 350px;
+    height: 200px;
+    background-color: black;
+}
+
+.box_card_description{
+    width: 100%;
 }

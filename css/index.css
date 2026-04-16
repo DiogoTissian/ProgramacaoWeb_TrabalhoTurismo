@@ -1,7 +1,3 @@
-.fonte_cursiva{
-    font-family: 'Brush Script MT', cursive;
-}
-
 .cards_atracoes{
     display: flex;
     gap: 20px;
@@ -34,7 +30,6 @@
     width: 350px;
     height: 50px;
     background-color: rgba(0, 0, 0, 0.7);
-    bottom: 20px;
 }
 
 .descricao_card{
@@ -45,7 +40,6 @@
     height: 500px;
     font-size: 14px;
     background-color: rgba(0, 0, 0, 0.9);
-    bottom: 20px;
 }
 
 .card_atracao a{

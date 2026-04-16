@@ -1,0 +1,30 @@
+.box_infos{
+    display: flex;
+}
+
+.text_infos{
+    background-color: whitesmoke; width: 100%;
+}
+
+.text_descricao{
+    margin-left: 10px;
+}
+
+.box_images{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.local_image{
+    height: 200px;
+}
+
+.gps_image{
+    height: 200px;
+}
+
+h1{
+    
+}
