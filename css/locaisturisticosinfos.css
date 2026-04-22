@@ -1,5 +1,6 @@
 .box_infos{
     display: flex;
+    width: 100%;
 }
 
 .text_infos{
@@ -23,8 +24,4 @@
 
 .gps_image{
     height: 200px;
-}
-
-h1{
-    
 }
