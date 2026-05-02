@@ -1,18 +1,39 @@
 header{
-    background-color: cadetblue;
+    color: white;
+    background-color: #BA2D0B;
 }
 
 body{
     font-family: sans-serif;
     color: black;
     margin-left: 20px;
+    background-color: #fffaf1;
 }
 
 footer{
-    background-color: cadetblue;
+    background-color: #205A28;
     margin-top: 10px;
+}
+
+.definicoes_header_footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 .fonte_cursiva{
     font-family: 'Brush Script MT', cursive;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav{
+    font-size: 30px;
+}
+
+nav{
+    margin-left: 10px;
 }

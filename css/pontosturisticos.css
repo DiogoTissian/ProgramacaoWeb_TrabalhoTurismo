@@ -6,6 +6,7 @@
 
 .extern_box_card{
     width: 100%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 .box_card{
@@ -30,4 +31,12 @@
 
 .box_card_description{
     width: 100%;
+}
+
+.box_cards a:visited{
+    color: #2675c4;
+}
+
+.titulo{
+    font-size: 60px;
 }

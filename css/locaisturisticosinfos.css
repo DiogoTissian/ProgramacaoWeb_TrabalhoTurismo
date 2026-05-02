@@ -4,7 +4,9 @@
 }
 
 .text_infos{
-    background-color: whitesmoke; width: 100%;
+    background-color: whitesmoke;
+    width: 100%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 .text_descricao{
@@ -18,10 +20,35 @@
     gap: 10px;
 }
 
+.box_images_carrousel{
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
 .local_image{
     height: 200px;
 }
 
 .gps_image{
+    height: 200px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.imagens_sombra{
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.imagens_definicoes{
+    width: 350px;
     height: 200px;
 }

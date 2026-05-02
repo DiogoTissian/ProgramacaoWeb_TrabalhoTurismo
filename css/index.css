@@ -1,3 +1,9 @@
+.nome_cidade{
+    font-size: 80px;
+    color: #2675c4;
+    text-decoration: underline;
+}
+
 .cards_atracoes{
     display: flex;
     gap: 20px;
@@ -14,6 +20,7 @@
     border-radius: 5px;
     display: flex;
     align-items: flex-end;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
 .card_atracao:hover .titulo_card{
@@ -48,4 +55,8 @@
 
 .card_atracao span p{
     margin-left: 5px;
+}
+
+h1{
+    font-size: 60px;
 }

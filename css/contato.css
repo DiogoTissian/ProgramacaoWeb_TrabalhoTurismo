@@ -1,0 +1,23 @@
+h1{
+    font-size: 60px;
+}
+
+#btn_enviar{
+    background-color: green;
+}
+
+#btn_limpar{
+    background-color: #BA2D0B;
+}
+
+button{
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    width: 75px;
+    height: 50px;
+}
+
+.textos_contato{
+    font-size: 30px;
+}

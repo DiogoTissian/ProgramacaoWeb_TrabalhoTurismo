@@ -5,9 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Guia de Turismo - Contato</title>
         <link rel="stylesheet" href="../css/estilosbase.css">
+        <link rel="stylesheet" href="../css/contato.css">
     </head>
     <body>
-        <header>
+        <header class="definicoes_header_footer">
             <nav>
                 <a href="index.html">Início</a> |
                 <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
@@ -17,37 +18,36 @@
             </nav>
         </header>
         
-        <h1>
+        <h1 class="fonte_cursiva">
             Contato
         </h1>
+        <h2>Deixe seu comentário/dúvida!</h2>
 
         <section>
             <form method="post">
-
                 <section>
-                    <h2>Deixe seu comentário/dúvida!</h2>
                     <section>
                         <p>Nome:</p>
-                        <input type="text" placeholder="Nome">
+                        <input type="text" placeholder="Nome" class="textos_contato">
                     </section>
                     <section>
                         <p>Email:</p>
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" class="textos_contato">
                     </section>
                     <section>
                         <p>Mensgaem:</p>
-                        <textarea rows="10" cols="50" placeholder="Mensgaem"></textarea>
+                        <textarea rows="10" cols="50" placeholder="Mensgaem" class="textos_contato"></textarea>
                     </section>
                 </section>
                 
                 <section style="margin-top: 10px;">
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpar</button>
+                    <button id="btn_enviar" type="submit">Enviar</button>
+                    <button id="btn_limpar" type="reset">Limpar</button>
                 </section>
             </form>
         </section>
         
-        <footer>
+        <footer class="definicoes_header_footer">
             <nav>
                 <a href="index.html">Início</a> |
                 <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
