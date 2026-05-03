@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas Práticas - Caxias do Sul</title>
+    <link rel="stylesheet" href="../css/estilosbase.css">
+    <style>
+        body {
+            background-color: #f4f7f6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container-dicas {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .header-dicas {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .header-dicas h1 {
+            font-size: 32px;
+            color: #000;
+        }
+
+        .header-dicas h1 span {
+            color: #5f9ea0;
+            font-style: italic;
+        }
+
+        .grid-interativo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card-informativo {
+            background: #fff;
+            border-radius: 12px;
+            border-bottom: 5px solid #5f9ea0;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-informativo:hover {
+            transform: translateY(-5px);
+            border-bottom-color: #e67e22;
+        }
+
+        .card-informativo h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        .card-informativo p {
+            font-size: 14px;
+            color: #555;
+            text-align: justify;
+        }
+
+        .card-informativo ul {
+            padding-left: 18px;
+            font-size: 13px;
+            color: #444;
+            margin-bottom: 0;
+        }
+
+        .card-informativo li {
+            margin-bottom: 8px;
+        }
+
+        .alerta-seguranca {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="definicoes_header_footer">
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
+            <a href="Gastronomia.html">Gastronomia</a> |
+            <a href="Dicas.html">Dicas Práticas</a> |
+            <a href="curiosidades.html">Curiosidades</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container-dicas">
+        <div class="header-dicas">
+            <h1>Dicas para você que vem para <br><span>Caxias do Sul !</span></h1>
+            <p>Confira as principais recomendações para tornar sua estadia na Serra Gaúcha inesquecível.</p>
+        </div>
+
+        <div class="grid-interativo">
+            
+            <!-- 1. CLIMA -->
+            <div class="card-informativo">
+                <h3>Clima e Vestuário</h3>
+                <p>O tempo na Serra é imprevisível devido à altitude. Esteja pronto para variações térmicas rápidas.</p>
+                <ul>
+                    <li><b>Inverno:</b> Muito frio e geadas frequentes. Use lã e tecidos térmicos.</li>
+                    <li><b>Verão:</b> Quente de dia, mas a temperatura cai ao anoitecer.</li>
+                    <li><b>Dica:</b> Tenha sempre um guarda-chuva, pois a neblina e garoa são comuns.</li>
+                </ul>
+            </div>
+
+            <!-- 2. COMPRAS E SOUVENIRS -->
+            <div class="card-informativo">
+                <h3>Compras e Recordações</h3>
+                <p>Caxias é um centro de produção têxtil e artesanal. Aproveite para levar um pedaço da Serra com você.</p>
+                <ul>
+                    <li><b>Malhas e Couro:</b> A cidade possui diversas fábricas que vendem direto ao consumidor com ótimos preços.</li>
+                    <li><b>Artesanato:</b> Procure por itens de "dressa" (palha de trigo trançada), uma tradição dos imigrantes.</li>
+                    <li><b>Produtos Coloniais:</b> Geleias, queijos e salames produzidos nas rotas rurais são excelentes opções.</li>
+                </ul>
+            </div>
+
+            <!-- 3. MOEDA -->
+            <div class="card-informativo">
+                <h3>Pagamentos e Compras</h3>
+                <p>Caxias é um polo econômico forte, com infraestrutura bancária completa.</p>
+                <ul>
+                    <li><b>Cartões:</b> Aceitação universal em shoppings e restaurantes.</li>
+                    <li><b>PIX:</b> Muito usado em feiras coloniais e pequenos produtores.</li>
+                    <li><b>Shoppings:</b> Grandes centros como o Villagio oferecem de tudo.</li>
+                </ul>
+            </div>
+
+            <!-- 4. DOCUMENTAÇÃO -->
+            <div class="card-informativo">
+                <h3>Documentação Necessária</h3>
+                <p>Mantenha seus documentos de identificação sempre acessíveis para evitar transtornos.</p>
+                <ul>
+                    <li><b>Nacionais:</b> RG ou CNH (física ou digital) são essenciais.</li>
+                    <li><b>Meia-entrada:</b> Estudantes devem portar a carteira oficial CIE.</li>
+                    <li><b>Hospedagem:</b> Hotéis exigem documento oficial no check-in.</li>
+                </ul>
+            </div>
+
+            <!-- 5. EVENTOS -->
+            <div class="card-informativo">
+                <h3>Eventos e Tradições</h3>
+                <p>A cultura local é celebrada em grandes festas que movimentam toda a região.</p>
+                <ul>
+                    <li><b>Festa da Uva:</b> O maior evento da cidade (ocorre a cada dois anos).</li>
+                    <li><b>Semana Farroupilha:</b> Em setembro, celebração das tradições gaúchas.</li>
+                    <li><b>Natal:</b> Decorações especiais, principalmente em bairros como Ana Rech.</li>
+                </ul>
+            </div>
+
+            <!-- 6. SAÚDE -->
+            <div class="card-informativo">
+                <h3>Saúde e Emergências</h3>
+                <p>Informação vital para casos de necessidade médica durante o seu passeio.</p>
+                <ul>
+                    <li><b>SAMU:</b> Ligue 192 para emergências médicas.</li>
+                    <li><b>Hospitais:</b> Pompéia e Hospital Geral são as referências locais.</li>
+                    <li><b>Farmácias:</b> Redes 24h estão presentes nas principais avenidas.</li>
+                </ul>
+            </div>
+
+            <!-- 7. HORÁRIOS -->
+            <div class="card-informativo">
+                <h3>Horários de Funcionamento</h3>
+                <p>Fique atento ao ritmo da cidade para não encontrar portas fechadas.</p>
+                <ul>
+                    <li><b>Comércio:</b> Lojas de rua fecham para almoço (12h às 13h30).</li>
+                    <li><b>Shoppings:</b> Aberto direto das 10h às 22h.</li>
+                    <li><b>Bancos:</b> Atendimento ao público das 10h às 15h.</li>
+                </ul>
+            </div>
+
+            <!-- 8. TRANSPORTE -->
+            <div class="card-informativo">
+                <h3>Transporte Urbano</h3>
+                <p>Opções para circular pela área urbana e visitar pontos próximos ao centro.</p>
+                <ul>
+                    <li><b>Uber/99:</b> Funcionam muito bem em toda a zona urbana.</li>
+                    <li><b>Visate:</b> Ônibus circulam por todos os bairros e a rodoviária.</li>
+                    <li><b>Dica:</b> O trânsito central pode ser intenso nos horários de pico.</li>
+                </ul>
+            </div>
+
+            <!-- 9. ACESSIBILIDADE -->
+            <div class="card-informativo">
+                <h3>Acessibilidade e Pisos</h3>
+                <p>Dicas de infraestrutura para visitantes com mobilidade reduzida.</p>
+                <ul>
+                    <li><b>Centro:</b> A Praça Dante e shoppings possuem rampas e piso tátil.</li>
+                    <li><b>Interior:</b> Algumas vinícolas têm caminhos de pedra ou terra.</li>
+                    <li><b>Calçados:</b> Prefira sapatos confortáveis para os roteiros históricos.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="alerta-seguranca">
+            <h4>Segurança e Recomendações</h4>
+            <p>Mantenha atenção básica em locais de grande movimento. Ao visitar o interior, prefira ir de carro ou transporte agendado, pois as estradas de colônia são sinuosas.</p>
+        </div>
+    </div>
+
+    <footer class="definicoes_header_footer">
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
+            <a href="Gastronomia.html">Gastronomia</a> |
+            <a href="Dicas.html">Dicas Práticas</a> |
+            <a href="curiosidades.html">Curiosidades</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </footer>
+
+</body>
+</html> 
