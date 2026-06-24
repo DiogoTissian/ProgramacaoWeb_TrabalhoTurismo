@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="../../css/locaisturisticosinfos.css">
 </head>
 <body>
-<header class="definicoes_header_footer">
-    <nav class="navbar">
-        <button class="menu-toggle" id="menuToggle">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links" id="navLinks" style="list-style: none;">
-            <li><a href="../../index.html">Início</a></li>
-            <li><a href="../pontosturisticoslista.html">Pontos Turísticos</a></li>
-            <li><a href="../Gastronomia.html">Gastronomia</a></li>
-            <li><a href="../Dicas.html">Dicas</a></li>
-            <li><a href="../contato.html">Contato</a></li>
-        </ul>
+<header>
+    <button id="menu-btn" class="hamburger">
+        ☰
+    </button>
+    <nav id="menu">
+        <a href="../../index.html">Início</a>
+        <a href="../pontosturisticoslista.html">Pontos Turísticos</a>
+        <a href="../Gastronomia.html">Gastronomia</a>
+        <a href="../Dicas.html">Dicas</a>
+        <a href="../contato.html">Contato</a>
+        <a href="#" id="trocarTema">Trocar tema</a>
     </nav>
 </header>
 
+<main>
 <h1 class="fonte_cursiva">Estrada do Imigrante</h1>
 
 <section class="box_infos">
@@ -54,17 +54,9 @@
         <img class="imagens_definicoes" src="../../imagens/pontosturisticosimagens/local3/4.png" alt="Imagem casas exterior">
     </div>
 </section>
-
-<footer class="definicoes_header_footer">
-    <nav style="text-align: center;">
-        <a href="../../index.html">Início</a> |
-        <a href="../pontosturisticoslista.html">Pontos Turísticos</a> |
-        <a href="../Gastronomia.html">Gastronomia</a> |
-        <a href="../Dicas.html">Dicas</a> |
-        <a href="../contato.html">Contato</a>
-    </nav>
-</footer>
+</main>
 
 <script src="../../js/script.js"></script>
+<script src="../../js/menu.js"></script>
 </body>
 </html>

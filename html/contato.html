@@ -8,53 +8,52 @@
         <link rel="stylesheet" href="../css/contato.css">
     </head>
     <body>
-        <header class="definicoes_header_footer">
-            <nav>
-<a href="../index.html">Início</a> |
-                <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
-                <a href="Gastronomia.html">Gastronomia</a> |
-                <a href="Dicas.html">Dicas</a> | 
+        <header>
+            <button id="menu-btn" class="hamburger">
+                ☰
+            </button>
+
+            <nav id="menu">
+                <a href="../index.html">Início</a>
+                <a href="pontosturisticoslista.html">Pontos Turísticos</a>
+                <a href="Gastronomia.html">Gastronomia</a>
+                <a href="Dicas.html">Dicas</a>
                 <a href="contato.html">Contato</a>
+                <a href="#" id="trocarTema">Trocar tema</a>
             </nav>
         </header>
         
-        <h1 class="fonte_cursiva">
-            Contato
-        </h1>
-        <h2>Deixe seu comentário/dúvida!</h2>
+        <main>
+            <h1 class="fonte_cursiva">
+                Contato
+            </h1>
+            <h2>Deixe seu comentário/dúvida!</h2>
 
-        <section>
-            <form method="post">
-                <section>
+            <section>
+                <form id="formularioContato" method="post">
                     <section>
-                        <p>Nome:</p>
-                        <input type="text" placeholder="Nome" class="textos_contato">
+                        <section>
+                            <p>Nome:</p>
+                            <input required type="text" placeholder="Nome" class="textos_contato">
+                        </section>
+                        <section>
+                            <p>Email:</p>
+                            <input required type="email" placeholder="Email" class="textos_contato">
+                        </section>
+                        <section>
+                            <p>Mensagem:</p>
+                            <textarea required rows="10" cols="50" placeholder="Mensgaem" class="textos_contato"></textarea>
+                        </section>
                     </section>
-                    <section>
-                        <p>Email:</p>
-                        <input type="email" placeholder="Email" class="textos_contato">
+                    
+                    <section style="margin-top: 10px;">
+                        <button id="btn_enviar" type="submit">Enviar</button>
+                        <button id="btn_limpar" type="reset">Limpar</button>
                     </section>
-                    <section>
-                        <p>Mensgaem:</p>
-                        <textarea rows="10" cols="50" placeholder="Mensgaem" class="textos_contato"></textarea>
-                    </section>
-                </section>
-                
-                <section style="margin-top: 10px;">
-                    <button id="btn_enviar" type="submit">Enviar</button>
-                    <button id="btn_limpar" type="reset">Limpar</button>
-                </section>
-            </form>
-        </section>
+                </form>
+            </section>
+        </main>
         
-        <footer class="definicoes_header_footer">
-            <nav>
-                <a href="../index.html">Início</a> |
-                <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
-                <a href="Gastronomia.html">Gastronomia</a> |
-                <a href="Dicas.html">Dicas</a> | 
-                <a href="contato.html">Contato</a>
-            </nav>
-        </footer>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

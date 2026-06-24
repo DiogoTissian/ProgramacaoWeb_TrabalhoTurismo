@@ -9,6 +9,12 @@
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
+body.dark .extern_box_card {
+    width: 100%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
 .box_card{
     border: 2px solid black;
     border-radius: 2px;
@@ -17,6 +23,14 @@
 
 .box_card:hover{
     color: black;
+}
+
+body.dark .box_card:hover {
+    color: white;
+}
+
+body.dark .extern_box_card:visited {
+    color: white;
 }
 
 .card_description{
@@ -39,4 +53,24 @@
 
 .titulo{
     font-size: 60px;
+}
+
+#filtroPontosTuristicos{
+    width: 500px;
+    font-size: 25px;
+}
+
+#sectionFiltro{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+#spanFiltro{
+    font-size: 30px;
+    color: black;
+}
+
+body.dark #spanFiltro{
+    font-size: 30px;
+    color: white;
 }

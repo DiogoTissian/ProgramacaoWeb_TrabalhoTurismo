@@ -14,8 +14,13 @@
     color: #000;
 }
 
+body.dark .header-dicas h1 {
+    font-size: 32px;
+    color: #eeeeee;
+}
+
 .header-dicas h1 span {
-    color: #5f9ea0;
+    color: #83d7da;
     font-style: italic;
 }
 
@@ -70,6 +75,16 @@
 .alerta-seguranca {
     background-color: #fff3cd;
     border-left: 5px solid #ffc107;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+body.dark .alerta-seguranca {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    color: black;
     padding: 15px;
     margin-top: 30px;
     border-radius: 4px;

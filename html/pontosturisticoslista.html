@@ -8,88 +8,100 @@
         <link rel="stylesheet" href="../css/pontosturisticos.css">
     </head>
     <body>
-        <header class="definicoes_header_footer">
-            <nav>
-                <a href="../index.html">Início</a> |
-                <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
-                <a href="Gastronomia.html">Gastronomia</a> |
-                <a href="Dicas.html">Dicas</a> | 
+        <header>
+            <button id="menu-btn" class="hamburger">
+                ☰
+            </button>
+
+            <nav id="menu">
+                <a href="../index.html">Início</a>
+                <a href="pontosturisticoslista.html">Pontos Turísticos</a>
+                <a href="Gastronomia.html">Gastronomia</a>
+                <a href="Dicas.html">Dicas</a>
                 <a href="contato.html">Contato</a>
+                <a href="#" id="trocarTema">Trocar tema</a>
             </nav>
         </header>
         
-        <h1 class="titulo fonte_cursiva">
-            Pontos turísticos
-        </h1>
+        <main>
+            <h1 class="titulo fonte_cursiva">
+                Pontos turísticos
+            </h1>
 
-        <section class="box_cards">
-            <a href="PontosTuristicos/LocalTuristico1.html" class="extern_box_card">
-                <article class="box_card">
-                    <section class="image_box_card">
-                        <img src="../imagens/small_cards/img1.png" alt="Parque Cultural Epopeia Italiana" width="350px" height="200px">
-                    </section>
-                    <section class="box_card_description">
-                        <article class="card_description">
-                            <h1>Parque Cultural Epopeia Italiana</h1>
-                            <p>Embarque em uma viagem incomum através da história no Parque Emporia Italiana. Conheça as histórias de Lázaro e Rosa, que chegaram ao Brasil no início do século XX</p>
-                        </article>
-                    </section>
-                </article>
-            </a>
+            <spa id="spanFiltro">Filtro</spa>
+            
+            <section id="sectionFiltro">
+                <select id="filtroPontosTuristicos">
+                    <option value="todos">Todos</option>
+                    <option value="cultural">Cultural</option>
+                    <option value="medieval">Medieval</option>
+                    <option value="religioso">Religioso</option>
+                    <option value="arlivre">Ar livre</option>
+                </select>
+            </section>
 
-            <a href="PontosTuristicos/LocalTuristico2.html" class="extern_box_card">
-                <article class="box_card">
-                    <section class="image_box_card">
-                        <img src="../imagens/small_cards/img2.png" alt="Castelo Lacave" width="350px" height="200px">
-                    </section>
-                    <section class="box_card_description">
-                        <article class="card_description">
-                            <h1>Castelo Lacave</h1>
-                            <p>O Castelo Lacave é o resultado de um sonho do empreendedor uruguaio Juan Carrau, que seguiu uma planta original de um Castelo Medieval espanhol do século XI</p>
-                        </article>
-                    </section>
-                </article>
-            </a>
+            <section class="box_cards">
+                <a href="PontosTuristicos/LocalTuristico1.html" class="extern_box_card cultural">
+                    <article class="box_card">
+                        <section class="image_box_card">
+                            <img src="../imagens/small_cards/img1.png" alt="Parque Cultural Epopeia Italiana" width="350px" height="200px">
+                        </section>
+                        <section class="box_card_description">
+                            <article class="card_description">
+                                <h1>Parque Cultural Epopeia Italiana</h1>
+                                <p>Embarque em uma viagem incomum através da história no Parque Emporia Italiana. Conheça as histórias de Lázaro e Rosa, que chegaram ao Brasil no início do século XX</p>
+                            </article>
+                        </section>
+                    </article>
+                </a>
 
-            <a href="PontosTuristicos/LocalTuristico3.html" class="extern_box_card">
-                <article class="box_card">
-                    <section class="image_box_card">
-                        <img src="../imagens/small_cards/img3.png" alt="Estrada do Imigrante" width="350px" height="200px">
-                    </section>
-                    <section class="box_card_description">
-                        <article class="card_description">
-                            <h1>Estrada do Imigrante</h1>
-                            <p>A Estrada do Imigrante é uma das rotas turísticas de Caxias do Sul, na região da uva e do vinho na Serra Gaúcha.</p>
-                            <p>No caminho da Estrada do Imigrante se encontra a essência da colonização italiana no Sul do Brasil, com destaque para belas propriedades, parreirais e uma gruta incrível.</p>
-                        </article>
-                    </section>
-                </article>
-            </a>
+                <a href="PontosTuristicos/LocalTuristico2.html" class="extern_box_card medieval">
+                    <article class="box_card">
+                        <section class="image_box_card">
+                            <img src="../imagens/small_cards/img2.png" alt="Castelo Lacave" width="350px" height="200px">
+                        </section>
+                        <section class="box_card_description">
+                            <article class="card_description">
+                                <h1>Castelo Lacave</h1>
+                                <p>O Castelo Lacave é o resultado de um sonho do empreendedor uruguaio Juan Carrau, que seguiu uma planta original de um Castelo Medieval espanhol do século XI</p>
+                            </article>
+                        </section>
+                    </article>
+                </a>
 
-            <a href="PontosTuristicos/LocalTuristico4.html" class="extern_box_card">
-                <article class="box_card">
-                    <section class="image_box_card">
-                        <img src="../imagens/small_cards/img4.png" alt="Igreja São Pellegrino" width="350px" height="200px">
-                    </section>
-                    <section class="box_card_description">
-                        <article class="card_description">
-                            <h1>Igreja São Pellegrino</h1>
-                            <p>A Igreja de São Pelegrino é um templo católico localizado em Caxias do Sul, no estado do Rio Grande do Sul, Brasil.</p>
-                            <p>Sua história está vinculada aos primórdios da imigração italiana e à fundação da cidade, e o edifício tem várias obras de arte em seu interior, com destaque para os painéis de Aldo Locatelli.</p>
-                        </article>
-                    </section>
-                </article>
-            </a>
-        </section>
+                <a href="PontosTuristicos/LocalTuristico3.html" class="extern_box_card arlivre">
+                    <article class="box_card">
+                        <section class="image_box_card">
+                            <img src="../imagens/small_cards/img3.png" alt="Estrada do Imigrante" width="350px" height="200px">
+                        </section>
+                        <section class="box_card_description">
+                            <article class="card_description">
+                                <h1>Estrada do Imigrante</h1>
+                                <p>A Estrada do Imigrante é uma das rotas turísticas de Caxias do Sul, na região da uva e do vinho na Serra Gaúcha.</p>
+                                <p>No caminho da Estrada do Imigrante se encontra a essência da colonização italiana no Sul do Brasil, com destaque para belas propriedades, parreirais e uma gruta incrível.</p>
+                            </article>
+                        </section>
+                    </article>
+                </a>
+
+                <a href="PontosTuristicos/LocalTuristico4.html" class="extern_box_card religioso">
+                    <article class="box_card">
+                        <section class="image_box_card">
+                            <img src="../imagens/small_cards/img4.png" alt="Igreja São Pellegrino" width="350px" height="200px">
+                        </section>
+                        <section class="box_card_description">
+                            <article class="card_description">
+                                <h1>Igreja São Pellegrino</h1>
+                                <p>A Igreja de São Pelegrino é um templo católico localizado em Caxias do Sul, no estado do Rio Grande do Sul, Brasil.</p>
+                                <p>Sua história está vinculada aos primórdios da imigração italiana e à fundação da cidade, e o edifício tem várias obras de arte em seu interior, com destaque para os painéis de Aldo Locatelli.</p>
+                            </article>
+                        </section>
+                    </article>
+                </a>
+            </section>
+        </main>
         
-        <footer class="definicoes_header_footer">
-            <nav>
-                <a href="../index.html">Início</a> |
-                <a href="pontosturisticoslista.html">Pontos Turísticos</a> |
-                <a href="Gastronomia.html">Gastronomia</a> |
-                <a href="Dicas.html">Dicas</a> | 
-                <a href="contato.html">Contato</a>
-            </nav>
-        </footer>
+        <script src="../js/pontosturisticoslista.js"></script>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

@@ -9,6 +9,12 @@
     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
 }
 
+body.dark .text_infos{
+    background-color: rgb(58, 58, 58);
+    width: 100%;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.7);
+}
+
 .text_descricao{
     margin-left: 10px;
 }
